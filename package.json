@@ -1,0 +1,24 @@
+{
+    "name": "healthcheck",
+    "description": "Checks Health",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app",
+        "test": "./node_modules/mocha/bin/mocha -R spec"
+    },
+    "dependencies": {
+        "underscore": "*",
+        "superagent": "*",
+        "node-redis-pubsub": "*",
+        "assert": "*",
+        "restify": "*",
+        "validator": "*",
+        "cron":"*",
+         "msh":"*",
+        "CBuffer":"*"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    }
+}

@@ -1,2 +1,2 @@
-microservices-healthcheck
-=========================
+healthcheck
+===========
